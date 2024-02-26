@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "PyGitCli"
-version = "1.0.0"
+name = "Gitcy"
+version = "1.0.1"
 description = "Some usefull gitcommands to make life easier :)"
 authors = ["Andreas Hartl-Bachinger <andreas.hartl-bachinger@gmx.at>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "git_utils"}]
+packages = [{include = "gitcy"}]
+url="https://github.com/ahartlba/gitcy"
 
 [tool.poetry.dependencies]
 python = "^3.8"

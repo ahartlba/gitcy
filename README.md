@@ -1,4 +1,4 @@
-# PyGitCli
+# Gitcy
 
 A small python package for some github cli utilities.
 Is it necessary? No.
