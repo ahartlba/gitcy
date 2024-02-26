@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
-from git_utils import commit_with_title_and_description
-from git_utils.core.push import git_push
+from gitcy import commit_with_title_and_description
+from gitcy.core.push import git_push
 
 
 def main():

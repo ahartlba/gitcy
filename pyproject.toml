@@ -6,7 +6,7 @@ authors = ["Andreas Hartl-Bachinger <andreas.hartl-bachinger@gmx.at>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "gitcy"}]
-url="https://github.com/ahartlba/gitcy"
+homepage="https://github.com/ahartlba/gitcy"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -19,4 +19,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-ctd = "git_utils.cli.ctd_:main"
+ctd = "gitcy.cli.ctd_:main"
