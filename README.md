@@ -1,6 +1,6 @@
 # Gitcy
 
-A small python package for some github cli utilities.
+A lightweight python package for some github cli utilities.
 Is it necessary? No.
 Is it helpful? Maybe.
 Does it feel better? Yes.
