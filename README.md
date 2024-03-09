@@ -23,6 +23,18 @@ you can directly type
 ctd -t "Title" -d "More Description" -p
 ```
 
+or even select the files to stage before commiting
+
+```shell
+ctd -t "Title" -d "More Description" -f 'module/test.py' -p
+```
+
+of stage all files before comiting (be carefull though :))
+
+```shell
+ctd -t "Title" -d "More Description" -p --all
+```
+
 ## Install
 
 Use either pipx to install
