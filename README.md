@@ -1,8 +1,11 @@
 # Gitcy
 
-A small python package for some github cli utilities.
+A lightweight python package for some github cli utilities.
+
 Is it necessary? No.
+
 Is it helpful? Maybe.
+
 Does it feel better? Yes.
 
 ## Why
@@ -33,3 +36,8 @@ or install the package in your python environment and use it there.
 ```shell
 pip install gitcy
 ```
+
+## Commands
+
+- ``ctd`` stands for Commit with Title and Description. Add title and additional description to your commit-msg. Additionally select files and push in one command
+- ``gundo`` stands for gitcy undo ... which undoes last commit

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Gitcy"
-version = "1.0.3"
+version = "1.0.4"
 description = "Some usefull gitcommands to make life easier :)"
 authors = ["Andreas Hartl-Bachinger <andreas.hartl-bachinger@gmx.at>"]
 license = "MIT"
@@ -20,3 +20,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 ctd = "gitcy.cli.ctd_:main"
+gundo = "gitcy.cli.gundo_:main"
+
+[tool.ruff]
+line-length = 120

@@ -1,5 +1,5 @@
 import subprocess
 
 
-def git_push():
+def push():
     subprocess.run("git push")
